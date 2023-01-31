@@ -10,7 +10,14 @@ import {
   FaPhone,
 } from "react-icons/fa";
 
+
 const Footer = () => {
+  const handleClick = () => {
+    window.open("https://www.linkedin.com/in/mateo-cava-57972922a/");
+  };
+  const handleClick2 = () =>{
+    window.open("https://github.com/Matecava")
+  }
   return (
     <div className="footer">
       <div className="footer-container">
@@ -49,13 +56,13 @@ const Footer = () => {
             and learn new thing to improve
           </p>
           <div className="social">
-            <FaLinkedin
+            <FaLinkedin onClick={handleClick}
               size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              style={{ color: "#fff", marginRight: "2rem", cursor:"pointer" } }
             />
-            <FaGithub
+            <FaGithub onClick={handleClick2}
               size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              style={{ color: "#fff", marginRight: "2rem", cursor:"pointer" }}
             />
           </div>
         </div>
