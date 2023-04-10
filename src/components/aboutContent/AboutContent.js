@@ -2,8 +2,8 @@ import './AboutContent.css'
 import { Link } from 'react-router-dom'
 import React2 from '../../assets/react2.webp'
 import React1 from '../../assets/react1.jpg'
-import pdf from '../../assets/Mateo cv ingles.pdf'
-import pdf2 from '../../assets/MATEO CAVA cv español.pdf'
+import pdf from '../../assets/Curriculum Mateo English 423.pdf'
+// import pdf2 from '../../assets/MATEO CAVA cv español.pdf'
 
 
 
@@ -21,14 +21,14 @@ const AboutContent = () => {
                 <button className='btn'>Contact</button>
             </Link>
             <div className='resume'>
-            <button className='btn'>
+            {/* <button className='btn'>
       <a href={pdf2} target="_blank" rel="noopener noreferrer" download="MATEO CAVA cv español.pdf"> 
       Download my resume(spanish) 
       </a>
-    </button>
+    </button> */}
     <button className='btn'>
-      <a href={pdf} target="_blank" rel="noopener noreferrer" download="Mateo cv ingles.pdf"> 
-      Download my resume(english) 
+      <a href={pdf} target="_blank" rel="noopener noreferrer" download="Curriculum Mateo English 423.pdf"> 
+      Download my resume
       </a>
     </button>
             </div>        
