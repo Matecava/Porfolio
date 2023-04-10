@@ -21,14 +21,14 @@ const AboutContent = () => {
                 <button className='btn'>Contact</button>
             </Link>
             <div className='resume'>
-            <button className='btn'>
+            {/* <button className='btn'>
       <a href={pdf2} target="_blank" rel="noopener noreferrer" download="MATEO CAVA cv español.pdf"> 
       Download my resume(spanish) 
       </a>
-    </button>
+    </button> */}
     <button className='btn'>
-      <a href={pdf} target="_blank" rel="noopener noreferrer" download="Mateo cv ingles.pdf"> 
-      Download my resume(english) 
+      <a href={pdf} target="_blank" rel="noopener noreferrer" download="Curriculum Mateo English 423.pdf"> 
+      Download my resume 
       </a>
     </button>
             </div>        
