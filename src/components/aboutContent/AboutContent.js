@@ -27,7 +27,7 @@ const AboutContent = () => {
       </a>
     </button> */}
     <button className='btn'>
-      <a href={pdf} target="_blank" rel="noopener noreferrer" download="Curriculum Mateo English 423.pdf"> 
+      <a href={pdf} target="_blank" rel="noopener noreferrer" download="Curriculum Mateo English 423 V2.pdf"> 
       Download my resume
       </a>
     </button>
