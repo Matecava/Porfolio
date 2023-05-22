@@ -14,7 +14,7 @@ const projectCardData = [
     image: pro2,
     title: "Pi-Food-Henry",
     text: "Individual project were the user can find lots of recipes and see how to prepare it. Other functions are filters, serch bar and create recipe.",
-    view: "",
+    view: "https://pi-food-pearl.vercel.app",
     source: "https://github.com/Matecava/PI-Food",
   },
   {
