@@ -2,7 +2,7 @@ import './AboutContent.css'
 import { Link } from 'react-router-dom'
 import React2 from '../../assets/react2.webp'
 import React1 from '../../assets/react1.jpg'
-import pdf from '../../assets/Curriculum Mateo English 423.pdf'
+import pdf from '../../assets/Curriculum Mateo English 423 V2.pdf'
 // import pdf2 from '../../assets/MATEO CAVA cv español.pdf'
 
 
